@@ -1,0 +1,10 @@
+I wanted to write out the project scope for this project. To make sure I am doing things correctly. 
+1. Project goals:
+  a. Create a machine learning result that is actually useful to the cave monitoring community.
+  b. Create a machine learning result that evaluates the relationship between precipitation d18O and drip water d18O in caves. 
+  
+2. The analyses I will do is a multiple linear regression, a supervised machine learning technique.
+3. The data (TestML.csv) is the data from Baker et al., 2019 (Nature). This will be used to train the Multiple Linear Regression machine learning model. The data (UntestedData.csv) is some of the isotope enabled iCESM1.3 data from Tabor et al. in revision (QSR)
+
+4. I will evaluate the data on TestML.csv using scores. And, I will evaluate the efficacy of the machine learning technique against other forward modeling techniques by comparing the results here to the Karstolution (Treble et al., 2019) results presented in Tabor et al. in revision.
+5. The outputs will be modeled dripwater for comparison. 
